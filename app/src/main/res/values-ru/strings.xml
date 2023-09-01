@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android-lessons</string>
+    <string name="hello_world_text">Привет Мир!</string>
+    <string name="hello_world_landscape_text">Привет Горизонтальный Мир!</string>
+</resources>
