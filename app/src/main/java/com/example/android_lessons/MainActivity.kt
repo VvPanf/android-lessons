@@ -54,6 +54,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, MultithreadingActivity::class.java))
             }
         }
+        findViewById<Button>(R.id.button_fith)?.also {
+            it.setOnClickListener {
+                startActivity(Intent(this, LoadCatActivity::class.java))
+            }
+        }
     }
 
 //    private fun moveToNextScreen() {
