@@ -59,6 +59,16 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, LoadCatActivity::class.java))
             }
         }
+        findViewById<Button>(R.id.button_sixth)?.also {
+            it.setOnClickListener {
+                startActivity(Intent(this, StorageActivity::class.java))
+            }
+        }
+        findViewById<Button>(R.id.button_seventh)?.also {
+            it.setOnClickListener {
+                startActivity(Intent(this, LoginActivity::class.java))
+            }
+        }
     }
 
 //    private fun moveToNextScreen() {

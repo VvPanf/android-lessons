@@ -47,5 +47,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/button_fith"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_forth" app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/button_forth" app:layout_constraintBottom_toTopOf="@+id/button_sixth"/>
+    <Button
+            android:text="Start Storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button_sixth"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_fith" app:layout_constraintBottom_toTopOf="@+id/button_seventh"/>
+    <Button
+            android:text="Start Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button_seventh"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_sixth" app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
